@@ -1,0 +1,385 @@
+html,
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+    overflow-x: hidden;
+}
+
+header {
+    position: relative;
+}
+
+p {
+    margin-bottom: 8px;
+}
+
+
+.background-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+    background: #000;
+    opacity: 0.7;
+    z-index: -1;
+}
+#navbarSupportedContent{
+    position: relative;
+}
+.nav-screenblack{
+    position: absolute;
+    top: 7px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #000;
+    opacity: 0.7;
+    z-index: -1;
+    display: none;
+}
+.navbar.bg>a {
+    color: #fff;
+    font-size: 30px;
+    text-shadow: 0px 0px 50px red;
+
+}
+
+.navbar.bg>a:hover {
+    color: rgb(253, 54, 54);
+}
+
+.navbar.bg>button {
+    background: #fff;
+}
+
+.navbar.bg>div>ul>li>a {
+    color: #fff !important;
+}
+
+.navbar._navbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 3;
+}
+
+.black-screen {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: #000;
+    opacity: 0.5;
+
+
+}
+
+.carousel-item.parent-black-screen>img {
+    -webkit-filter: blur(3px);
+    -o-filter: blur(3px);
+    -moz-filter: blur(3px);
+    filter: blur(3px);
+    height: 100vh;
+}
+
+.carousel-item.parent-black-screen>.carousel-caption>button {
+    background: linear-gradient(-90deg, yellow, red);
+    ;
+    border-radius: 25px;
+    height: 50px;
+    line-height: 0px;
+    width: 170px;
+    border: none;
+    color: #fff;
+}
+
+.carousel-caption._info {
+    position: absolute;
+    top: 40%;
+}
+
+.carousel-caption._info>p._xl {
+    color: rgb(236, 232, 32);
+}
+
+.carousel-caption._info>p._xm {
+    font-size: 50px;
+}
+
+._space {
+    clear: both;
+    margin-bottom: 10px;
+}
+
+/* ===slick slide=== */
+
+
+.slider {
+    width: 70%;
+    margin: 100px auto;
+}
+
+.slick-slide {
+    margin: 0px 20px;
+}
+
+.slick-slide img {
+    width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: black;
+}
+
+
+.slick-slide {
+    transition: all ease-in-out .3s;
+}
+
+.slick-current {
+    opacity: 1;
+}
+
+.slick-arrow {
+    background: rgb(235, 196, 23) !important;
+    border-radius: 25px;
+}
+
+.autoplay.slider.slick-initialized.slick-slider {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.title-newin>p {
+    color: rgb(253, 190, 16);
+    text-shadow: 4px 2px 7px rgb(170, 165, 165);
+}
+
+hr {
+    margin-top: 0px;
+    background: linear-gradient(145deg, yellow, red);
+}
+
+.film-dc {
+    position: relative;
+}
+
+
+.film-dc>.hvr-bounce-to-top {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: 0px;
+    text-align: center;
+}
+
+.circle {
+    border: 1px solid #fff;
+    border-radius: 50px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 58px;
+}
+
+.film-dc>div>a {
+    color: #fff;
+    display: none;
+}
+
+.film-dc>div:hover a {
+    display: block;
+}
+
+.circle.hvr-icon-pulse {
+    margin-top: 50px;
+}
+
+.read-more {
+    letter-spacing: 1.2px;
+}
+
+.nav.nav-tabs>li {
+    float: left;
+}
+
+.nav.nav-tabs {
+    width: 100%;
+}
+
+
+.img-week>img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+
+.content-midd {
+    background: url('../img/bg-midd.jpg') no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 600px;
+    width: 100%;
+
+}
+
+
+/* =====form mail===== */
+
+#main {
+    position: relative;
+    width: 550px;
+    height: 390px;
+    left: 30%;
+    right: 30%;
+    top: 110px;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    background-color: white;
+}
+
+#left {
+    position: relative;
+    background: linear-gradient(135deg, rgba(91, 36, 122, 0.45) 0%, rgb(245, 150, 42) 100%), url("https://images.pexels.com/photos/556663/pexels-photo-556663.jpeg?auto=compress&cs=tinysrgb&h=650&w=940");
+    background-size: cover;
+    background-position: center;
+    height: calc(100% + 50px);
+    width: 40%;
+    top: -35px;
+    left: -50px;
+    padding: 10px 25px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    color: white;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+
+#left #head {
+    opacity: 0.95;
+}
+
+#right {
+    position: absolute;
+    width: calc(60% - 40px);
+    height: 100%;
+    top: 0;
+    left: 40%;
+    display: flex;
+    flex-flow: column nowrap;
+    padding-left: 20px;
+}
+
+#right form {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100%;
+}
+
+#right form input,
+#right form select {
+    -moz-appearance: none;
+    /* Firefox */
+    -webkit-appearance: none;
+    /* Safari and Chrome */
+    appearance: none;
+    border: none;
+    border-bottom: 1.5px solid #ccc;
+    padding: 5px;
+    margin-top: 2.5px;
+    position: relative;
+}
+
+#right form .form-field {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    margin-bottom: 12.5px;
+}
+
+#right form #date-val {
+    display: flex;
+    justify-content: space-between;
+}
+
+#right form #date-val select {
+    width: 45%;
+}
+
+#right form button[type="submit"] {
+    background: linear-gradient(135deg, rgba(91, 36, 122, 0.45) 0%, rgb(245, 150, 42) 100%);
+    padding: 5px;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-weight: 400;
+    font-size: 12pt;
+    margin-top: 10px;
+}
+
+#right form button[type="submit"]:hover {
+    background: transparent;
+    box-shadow: 0 0 0 1px #f34829;
+    color: #f03f3f;
+}
+
+
+footer {
+    background: rgb(41, 41, 41);
+    color: #fff;
+}
+
+
+/* ====search==== */
+.form-control.mr-sm-2._search {
+    background: none;
+    color: #fff;
+    border-radius: 0px;
+}
+
+.btn.btn-outline-warning.my-2.my-sm-0._btnSearch{
+    border-radius: 0px; 
+}
+
+
+
+
+/* ================================================ */
+@media only screen and (max-width: 680px) {
+    .carousel-caption._info>p._xl {
+        font-size: 13px;
+    }
+
+    .carousel-caption._info>p._xm {
+        font-size: 20px;
+    }
+
+    .carousel-item.parent-black-screen>.carousel-caption>button {
+        height: 50px;
+        width: 170px;
+    }
+
+    ._space {
+        margin-bottom: 3px;
+    }
+
+    #left {
+        display: none;
+    }
+
+    #right {
+        left: 10px;
+    }
+
+    .nav.nav-tabs>li {
+        float: none;
+    }
+
+    .nav-screenblack{display: block;}
+}
